@@ -9,6 +9,7 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "test": "jest --watchAll=false",
+    "testWatchAll": "jest --watchAll",
     "prepare": "husky install"
   },
   "jest": {
