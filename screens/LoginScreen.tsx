@@ -34,8 +34,6 @@ export default function LoginScreen({ navigation }) {
         title="OK"
         testID="Login.Button"
         onPress={async () => {
-          console.log("[" + 32 + "m" + "PressDone" + "[0m", passwordRef.current);
-
           if (!passwordRef.current || !usernameRef.current) {
             setErrorMessage("Your username or password is incorrect");
           } else {
